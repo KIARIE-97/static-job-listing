@@ -6,188 +6,385 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Job Listings</title>
+  <title>static_Job Listings</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <div class="header">
+      <img src="./images/bg-header-desktop.svg" alt="header">
+    </div>
+  </header>
+    <div class="cards_container">
+      <div class="cards active">
   <!-- Item Start -->
-  Photosnap
+  <div class="card_info">
+    <div class="images">
+      <img src="./images/photosnap.svg" alt="">
+    </div>
+    <div class="info">
+      <div class="company">
+   <p>Photosnap</p>
   New!
   Featured
-  Senior Frontend Developer
-  1d ago
-  Full Time
-  USA only
+</div>
+ <h2> Senior Frontend Developer</h2> 
+  <div class="time">
+     1d ago
+    <ul>
+       <li> Full Time</li>
+      </ul>
+       <ul>
+    <li>USA only</li>
+    </ul>
+ </div>
+</div>
+</div>
+<div class="card_roles">
   <!-- Role -->
-  Frontend
+  <button>Frontend</button>
   <!-- Level -->
-  Senior
+  <button>Senior</button>
   <!-- Languages -->
-  HTML
-  CSS
-  JavaScript
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Manage
-  New!
-  Featured
-  Fullstack Developer
-  1d ago
-  Part Time
-  Remote
-  <!-- Role -->
-  Fullstack
-  <!-- Level -->
-  Midweight
-  <!-- Languages -->
-  Python
-  <!-- Tools -->
-  React
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Account
-  New!
-  Junior Frontend Developer
-  2d ago
-  Part Time
-  USA only
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  JavaScript
-  <!-- Tools -->
-  React
-  Sass
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  MyHome
-  Junior Frontend Developer
-  5d ago
-  Contract
-  USA only
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  CSS
-  JavaScript
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Loop Studios
-  Software Engineer
-  1w ago
-  Full Time
-  Worldwide
-  <!-- Role -->
-  Fullstack
-  <!-- Level -->
-  Midweight
-  <!-- Languages -->
-  JavaScript
-  Ruby
-  <!-- Tools -->
-  Sass
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  FaceIt
-  Junior Backend Developer
-  2w ago
-  Full Time
-  UK only
-  <!-- Role -->
-  Backend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  Ruby
-  <!-- Tools -->
-  RoR
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Shortly
-  Junior Developer
-  2w ago
-  Full Time
-  Worldwide
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  HTML
-  JavaScript
-  <!-- Tools -->
-  Sass
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Insure
-  Junior Frontend Developer
-  2w ago
-  Full Time
-  USA only
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  JavaScript
-  <!-- Tools -->
-  Vue
-  Sass
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  Eyecam Co.
-  Full Stack Engineer
-  3w ago
-  Full Time
-  Worldwide
-  <!-- Role -->
-  Fullstack
-  <!-- Level -->
-  Midweight
-  <!-- Languages -->
-  JavaScript
-  Python
-  <!-- Tools -->
-  Django
-  <!-- Item End -->
-
-  <!-- Item Start -->
-  The Air Filter Company
-  Front-end Dev
-  1mo ago
-  Part Time
-  Worldwide
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  JavaScript
-  <!-- Tools -->
-  React
-  Sass
-  <!-- Item End -->
+  <button>HTML</button>
+  <button>CSS</button>
+   <button>JavaScript</button>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+</div>
+  <!-- Item End -->
+</div>
+
+<div class="cards active">
+  <!-- Item Start -->
+  <div class="card_info">
+    <div class="images">
+      <img src="./images/manage.svg" alt="">
+    </div>
+    <div class="info">
+      <div class="company">
+   <p>Manage</p>
+  New!
+  Featured
+</div>
+  <h2> Fullstack Developer</h2>
+  <div class="time">
+     1d ago
+    <ul>
+       <li> Part Time</li>
+      </ul>
+       <ul>
+    <li>Remote</li>
+    </ul>
   </div>
+</div>
+</div>
+  <div class="card_roles">
+
+  <!-- Role -->
+  <button class="data_role">Fullstack</button>
+  <!-- Level -->
+  <button class="data_level">Midweight</button>
+  <!-- Languages -->
+  <button class="data_language">Python</button>
+  <!-- Tools -->
+  <button class="data_tools">React</button>
+</div>
+  <!-- Item End -->
+
+</div>
+
+  <div class="cards">
+  <!-- Item Start -->
+  <div class="card_info">
+    <div class="images">
+      <img src="./images/account.svg" alt="">
+    </div>
+    <div class="info">
+      <div class="company">
+   <p>Account</p>
+  New!
+ 
+</div>
+  <h2>  Junior Frontend Developer</h2>
+  <div class="time">
+    2d ago
+     <ul>
+       <li> Part Time</li>
+      </ul>
+       <ul>
+    <li>USA only</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="card_roles">
+  <!-- Role -->
+  <button class="data_role">Frontend</button>
+  <!-- Level -->
+  <button class="data_level">Junior</button>
+  <!-- Languages -->
+  <button class="data_language">JavaScript</button>
+  <!-- Tools -->
+  <button class="data_tools">React</button>
+  <button class="data_tools">Sass</button>
+</div>
+  <!-- Item End -->
+</div>
+
+  <div class="cards">
+  <!-- Item Start -->
+  <div class="card_info">
+    <div class="images">
+      <img src="./images/myhome.svg" alt="">
+    </div>
+    <div class="info">
+      <div class="company">
+   <p>MyHome</p>!
+
+</div>
+  <h2>   Junior Frontend Developer</h2>
+  <div class="time">
+    5d ago
+     <ul>
+       <li> Contract</li>
+      </ul>
+       <ul>
+    <li>USA only</li>
+    </ul>
+  </div>
+  </div>
+</div>
+<div class="card_roles">
+  <!-- Role -->
+  <button class="data_role">Frontend</button>
+  <!-- Level -->
+  <button class="data_level">Junior</button>
+  <!-- Languages -->
+  <button class="data_language">CSS</button>
+  <!-- Tools -->
+  <button class="data_tools">JavaScript</button>
+</div>
+</div>
+
+<div class="cards">
+  <!-- Item Start -->
+  <div class="card_info">
+    <div class="images">
+      <img src="./images/loop-studios.svg" alt="">
+    </div>
+    <div class="info">
+      <div class="company">
+        <p>Loop Studios</p>
+      </div>
+      <h2>Software Engineer</h2>
+      <div class="time">
+        1w ago
+        <ul>
+          <li>Full Time</li>
+        </ul>
+        <ul>
+          <li>Worldwide</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card_roles">
+    <!-- Role -->
+    <button class="data_role">Fullstack</button>
+    <!-- Level -->
+    <button class="data_level">Midweight</button>
+    <!-- Languages -->
+    <button class="data_language">JavaScript</button>
+    <button>Ruby</button>
+    <!-- Tools -->
+    <button class="data_tools">Sass</button>
+  </div>
+  <!-- Item End -->
+</div>
+
+<div class="cards">
+  <!-- Item Start -->
+  <div class="card_info">
+    <div class="images">
+      <img src="./images/faceit.svg" alt="">
+    </div>
+    <div class="info">
+      <div class="company">
+        <p>FaceIt</p>
+      </div>
+      <h2>Junior Backend Developer</h2>
+      <div class="time">
+        2w ago
+        <ul>
+          <li>Full Time</li>
+        </ul>
+        <ul>
+          <li>UK only</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card_roles">
+    <!-- Role -->
+    <button class="data_role">Backend</button>
+    <!-- Level -->
+    <button class="data_level">Junior</button>
+    <!-- Languages -->
+    <button class="data_language">Ruby</button>
+    <!-- Tools -->
+    <button class="data_tools">RoR</button>
+  </div>
+  <!-- Item End -->
+</div>
+
+<div class="cards">
+  <!-- Item Start -->
+  <div class="card_info">
+    <div class="images">
+      <img src="./images/shortly.svg" alt="">
+    </div>
+    <div class="info">
+      <div class="company">
+        <p>Shortly</p>
+      </div>
+      <h2>Junior Developer</h2>
+      <div class="time">
+        2w ago
+        <ul>
+          <li>Full Time</li>
+        </ul>
+        <ul>
+          <li>Worldwide</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card_roles">
+    <!-- Role -->
+    <button class="data_role">Frontend</button>
+    <!-- Level -->
+    <button class="data_level">Junior</button>
+    <!-- Languages -->
+    <button class="data_language">HTML</button>
+    <button class="data_language">JavaScript</button>
+    <!-- Tools -->
+    <button class="data_tools">Sass</button>
+  </div>
+  <!-- Item End -->
+</div>
+
+<div class="cards">
+  <!-- Item Start -->
+  <div class="card_info">
+    <div class="images">
+      <img src="./images/insure.svg" alt="">
+    </div>
+    <div class="info">
+      <div class="company">
+        <p>Insure</p>
+      </div>
+      <h2>Junior Frontend Developer</h2>
+      <div class="time">
+        2w ago
+        <ul>
+          <li>Full Time</li>
+        </ul>
+        <ul>
+          <li>USA only</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card_roles">
+    <!-- Role -->
+    <button>Frontend</button>
+    <!-- Level -->
+    <button>Junior</button>
+    <!-- Languages -->
+    <button>JavaScript</button>
+    <!-- Tools -->
+    <button>Vue</button>
+    <button>Sass</button>
+  </div>
+  <!-- Item End -->
+</div>
+
+<div class="cards">
+  <!-- Item Start -->
+  <div class="card_info">
+    <div class="images">
+      <img src="./images/eyecam-co.svg" alt="">
+    </div>
+    <div class="info">
+      <div class="company">
+        <p>Eyecam Co.</p>
+      </div>
+      <h2>Full Stack Engineer</h2>
+      <div class="time">
+        3w ago
+        <ul>
+          <li>Full Time</li>
+        </ul>
+        <ul>
+          <li>Worldwide</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card_roles">
+    <!-- Role -->
+    <button>Fullstack</button>
+    <!-- Level -->
+    <button>Midweight</button>
+    <!-- Languages -->
+    <button>JavaScript</button>
+    <button>Python</button>
+    <!-- Tools -->
+    <button>Django</button>
+  </div>
+  <!-- Item End -->
+</div>
+
+<div class="cards">
+  <!-- Item Start -->
+  <div class="card_info">
+    <div class="images">
+      <img src="./images/the-air-filter-company.svg" alt="">
+    </div>
+    <div class="info">
+      <div class="company">
+        <p>The Air Filter Company</p>
+      </div>
+      <h2>Front-end Dev</h2>
+      <div class="time">
+        1mo ago
+        <ul>
+          <li>Part Time</li>
+        </ul>
+        <ul>
+          <li>Worldwide</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card_roles">
+    <!-- Role -->
+    <button>Frontend</button>
+    <!-- Level -->
+    <button>Junior</button>
+    <!-- Languages -->
+    <button>JavaScript</button>
+    <!-- Tools -->
+    <button>React</button>
+    <button>Sass</button>
+  </div>
+  <!-- Item End -->
+</div>
+
+</div>
+</div>
+  
+ <script src="script.js"></script>
 </body>
 </html>
